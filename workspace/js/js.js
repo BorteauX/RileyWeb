@@ -5,8 +5,6 @@
 })
 */
 
-console.log(123)
-
 $(document).ready(function(){
     function footer(){
         var tl = new TimelineMax() ;

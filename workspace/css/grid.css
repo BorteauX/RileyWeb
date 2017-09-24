@@ -120,6 +120,13 @@
 .basicInfo-headshot{
     height: 200px;
 }
+.marking{
+	font-size: 16px;
+    font-weight: 800;
+    color: black;
+    display:inline-block;
+    margin:0px;
+}
 .profile{
     background-color: white;
     height: 650px;

@@ -22,3 +22,21 @@ $(document).ready(function(){
     init();
 });
 
+//大頭照動畫
+$(document).ready(function(){
+    function headshot(){
+        var tl2 = new TimelineMax();
+        tl2.from($('#js-logo') , 3 , {
+            scaleX:0.5,
+            scaleY:0.5
+        });
+
+
+
+    }
+    function init(){
+        headshot();
+    }
+
+    init();
+});

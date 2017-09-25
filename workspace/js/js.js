@@ -26,7 +26,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     function headshot(){
         var tl2 = new TimelineMax();
-        tl2.from($('#js-logo') , 3 , {
+        tl2.from($('#js-logo') , 1 , {
             scaleX:0.5,
             scaleY:0.5
         });

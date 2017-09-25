@@ -28,7 +28,8 @@ $(document).ready(function(){
         var tl2 = new TimelineMax();
         tl2.from($('#js-logo') , 1 , {
             scaleX:0.5,
-            scaleY:0.5
+            scaleY:0.5,
+            ease: Back.easeInOut
         });
 
 

@@ -9,7 +9,7 @@ $(document).ready(function(){
     // 底部動畫
     function footer(){
         var tl = new TimelineMax() ;
-        tl.from($('#copyright') , 2 , {
+        tl.from($('#js-copyright') , 2 , {
             alpha:0 
         });
     }
@@ -21,3 +21,4 @@ $(document).ready(function(){
 
     init();
 });
+

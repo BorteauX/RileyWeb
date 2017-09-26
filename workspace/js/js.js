@@ -45,7 +45,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     function info(){
         var myResume = new SplitText(".info",{type:"words,chars"});
-        TweenMax.staggerFrom(myResume.chars, 0.5 , {opacity:0,rotation:-180,y:-100,ease: Back.easeOut} , 0.02)
+        TweenMax.staggerFrom(myResume.chars, 0.5 , {opacity:0, rotation:-180 ,ease: Back.easeInOut} , 0.02)
     }
     function init(){
         info();

@@ -52,3 +52,13 @@ $(document).ready(function(){
     }
     init();
 });
+
+
+var profile = $("#js-profile");
+$(document).scroll(function(e) {
+    if($(this).scrollTop() > $("#js-banner").height()) {
+        profile.css({"position" : "fixed", "top" : "0","right" : "0"});
+    } else {
+        profile.css("position", "relative");
+    }
+});

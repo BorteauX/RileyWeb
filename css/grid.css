@@ -76,6 +76,7 @@
     clear: both;
     overflow: auto;
     zoom: 1;
+    position: relative;
 }
 .about_content .mainwrap,
 .work_content .mainwrap{

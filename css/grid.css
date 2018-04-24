@@ -69,7 +69,8 @@
     float: left;
 }
 .indexmainContent,
-.about_content{
+.about_content,
+.work_content{
     width: 1280px;
     margin: 0 auto;
     clear: both;

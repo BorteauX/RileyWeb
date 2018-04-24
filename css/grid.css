@@ -68,6 +68,9 @@
     width: 900px;
     float: left;
 }
+.mainContent_wrap .personal{
+        height: 100%;
+}
 .mainContent_wrap{
     width: 1280px;
     margin: 0 auto;
@@ -160,7 +163,6 @@
 }
 .personal{
     background-color: white;
-    height: 100%;
     border-style: solid;
     border-width: 2px;
     border-color: gray;

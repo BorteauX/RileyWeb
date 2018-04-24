@@ -59,8 +59,9 @@ $(document).ready(function()
 
     var profile = $("#js-profile");
     $(document).scroll(function() {
+        var scrolltop = $(this).scrollTop();
         if($(this).scrollTop() > $("#js-banner").height()) {
-            profile.css({"position" : "fixed", "top" : "0","right" : "311px"});
+            profile.css({"position" : "absolute", "right" : "0","top" : scrolltop-220});
         } else {
             profile.css({"position": "relative","top" : "0","right" : "0"});
         }

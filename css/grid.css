@@ -62,16 +62,17 @@
     transition: 0.7s;
 }
 
-.indexmainContent{
+.mainContent_wrap{
     background-color: white;
     height: auto;
     width: 900px;
     float: left;
 }
-.mainContent_wrap .personal{
+.indexmainContent .personal{
         height: 100%;
 }
-.mainContent_wrap{
+.indexmainContent,
+.about_content{
     width: 1280px;
     margin: 0 auto;
     clear: both;
@@ -96,10 +97,7 @@
 .mainwrap{
     text-align: center;
 }
-.about_content{
-    width: 900px;
-    float: left;
-}
+
 .resume{
     display: inline-block;
 }

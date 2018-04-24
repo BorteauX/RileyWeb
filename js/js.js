@@ -57,14 +57,14 @@ $(document).ready(function()
 
 
 
-    // var profile = $("#js-profile");
-    // $(document).scroll(function(e) {
-    //     if($(this).scrollTop() > $("#js-banner").height()) {
-    //         profile.css({"position" : "fixed", "top" : "0","right" : "0"});
-    //     } else {
-    //         profile.css("position", "relative");
-    //     }
-    // });
+    var profile = $("#js-profile");
+    $(document).scroll(function() {
+        if($(this).scrollTop() > $("#js-banner").height()) {
+            profile.css({"position" : "fixed", "top" : "0","right" : "311px"});
+        } else {
+            profile.css({"position": "relative","top" : "0","right" : "0"});
+        }
+    });
 
 
     function init()

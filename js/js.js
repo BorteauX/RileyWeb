@@ -59,7 +59,7 @@ $(document).ready(function()
 
     var profile = $("#js-profile");
     $(document).scroll(function() {
-        var scrolltop = $(this).scrollTop();
+        var scrolltop = $(this).scrollTop();//螢幕卷軸的高度
         if($(this).scrollTop() > $("#js-banner").height()) {
             profile.css({"position" : "absolute", "right" : "0","top" : scrolltop-220});
         } else {

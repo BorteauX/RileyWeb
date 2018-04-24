@@ -93,6 +93,10 @@
 .mainwrap{
     text-align: center;
 }
+.about_content{
+    width: 900px;
+    float: left;
+}
 .resume{
     display: inline-block;
 }

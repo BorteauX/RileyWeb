@@ -1,95 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <title>
-        
-    </title>
-        <head>
-            <meta charset="utf8">
-            <meta name="viewport" content="width =device-width,initial-scale =1">
-            <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-            <link rel="stylesheet" href="../css/grid.css">
-        </head>
-            <body>
-                <div class="container-fluid">
-                    
-                    <!--navibar-->
-                    <div class="row" id="js-banner">
-			<div class="col-lg-5 navibar ">
-				<ul class="naviBtn">
-					<li class="select">
-						<a href="index.html">
-							<p>HOME</p>
-						</a>
-					</li>
-					<li>
-						<a href="about.html">
-							<p>ABOUT</p>
-						</a>
-					</li>
-			</div>
-			<div class="col-lg-2 navibarlogo">
-				<div id = "js-logo" class="logo"><img src="../images/logo.jpg"></img>
-				</div>
-			</div>
-			<div class="col-lg-5 navibar ">
-				<ul class="naviBtn">
-					<li>
-						<a href="work.html">
-							<p>WORKS</p>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.facebook.com/larry.lee.94/photos_all" target="blank">
-							<p>My&nbsp;Life</p>
-						</a>
-					</li>
-				</ul>
-                           <a href="#" class="hamburger-manu">
+<title>
+</title>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width =device-width,initial-scale =1">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+
+<body>
+    <div class="navi_container">
+        <!--navibar-->
+        <div class="header" id="js-banner">
+            <div class=" navibar ">
+                <div class="navibarlogo">
+                    <div id="js-logo" class="logo"><img src="../images/logo.jpg"></img>
+                    </div>
+                </div>
+                <div class="naviBtn-wrapper">
+                  <ul class="naviBtn">
+                    <li class="select">
+                        <a href="index.html">
+                            <p>HOME</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <p>ABOUT</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="work.html">
+                            <p>WORKS</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/larry.lee.94/photos_all" target="blank">
+                            <p>My&nbsp;Life</p>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+                
+                    <a href="#" class="hamburger-manu">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                            </a>
-                       </div>
-                    </div>
-                    <!--主區塊-->
-                    <div class = "row">
-                        <div class = "col-md-8 indexmainContent">
-                            <div class = "homeInfo"><img src = "../images/home.jpg"></img></div>
-                        </div>
-                        
-                    <!--個人資訊-->
-                        <div class = "col-md-4 profile" id="js-profile">
-                           <div class= "personal">
-                               <div class = "hello">
-                                   <p>HELLO</p></div>
-                                   <div id = "js-headshot" class = "headshot" ></div>
-                                   <div class = "info"><p>Hi . Welcome to my personal website . I use HTML5 CSS and Javascript to build this website , the purpose is to be able to find a web designer's work . </p><br /><br /><br />
-                                   </div>
-                           </div>
-                        </div>
-                    </div>
-                    
-                    
-                    <!--footer-->
-                    <div class= "row footerrow" >
-                        <div class = "col-md-12 footer">
-                          <p id ="js-copyright" class="copyright">Copyright © 2017 by Riley Li</p>
-                        </div>
-                    </div>
-                    
+            </div>
+        </div>
+        <!--主區塊-->
+        <div class="mainContent_wrap">
+            <div class="indexmainContent">
+                <div class="homeInfo"><img src="../images/home.jpg"></img>
                 </div>
-                
-                <!-- bootstrap -->
-                
-                <script src="../bootstrap/js/jquery.js"></script>
-                <script src="../bootstrap/js/bootstrap.min.js"></script>
-                <script src="../js/TimelineMax.min.js"></script>
-                <script src="../js/TweenMax.min.js"></script>
-                <script src="../js/SplitText.min.js"></script>
-                <script src="../js/js.js"></script>
-                <!-- Optional theme -->
-                
-            </body>
+            </div>
+            <!--個人資訊-->
+            <div class="profile" id="js-profile">
+                <div class="personal">
+                    <div class="hello">
+                        <p>HELLO</p>
+                    </div>
+                    <div id="js-headshot" class="headshot"></div>
+                    <div class="info">
+                        <p>Hi . Welcome to my personal website . I use HTML5 CSS and Javascript to build this website , the purpose is to be able to find a web designer's work . </p>
+                        <br />
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
         
-    
+    </div>
+    <!--footer-->
+        <div class="footerrow">
+            <div class="footer">
+                <p id="js-copyright" class="copyright">Copyright © 2017 by Riley Li</p>
+            </div>
+        </div> 
+    <!-- bootstrap -->
+    <script src="../bootstrap/js/jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/TimelineMax.min.js"></script>
+    <script src="../js/TweenMax.min.js"></script>
+    <script src="../js/SplitText.min.js"></script>
+    <script src="../js/js.js"></script>
+    <!-- Optional theme -->
+</body>
+
 </html>

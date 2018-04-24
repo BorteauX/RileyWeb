@@ -5,16 +5,21 @@
 <head>
     <meta charset="utf8">
     <meta name="viewport" content="width =device-width,initial-scale =1">
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/grid.css"> </head>
 
 <body>
     <div class="container-fluid wrapper">
         <!--navibar-->
-        <div class="row" id="js-banner">
-            <div class="col-lg-5 navibar ">
-                <ul class="naviBtn">
-                    <li>
+        <div class="header" id="js-banner">
+            <div class=" navibar ">
+                <div class="navibarlogo">
+                    <div id="js-logo" class="logo"><img src="../images/logo.jpg"></img>
+                    </div>
+                </div>
+                <div class="naviBtn-wrapper">
+                  <ul class="naviBtn">
+                    <li >
                         <a href="index.html">
                             <p>HOME</p>
                         </a>
@@ -24,13 +29,6 @@
                             <p>ABOUT</p>
                         </a>
                     </li>
-            </div>
-            <div id = "js-logo" class="col-lg-2 navibarlogo">
-                <div class="logo"><img src="../images/logo.jpg"></img>
-                </div>
-            </div>
-            <div class="col-lg-5 navibar ">
-                <ul class="naviBtn">
                     <li>
                         <a href="work.html">
                             <p>WORKS</p>
@@ -41,12 +39,18 @@
                             <p>My&nbsp;Life</p>
                         </a>
                     </li>
-                </ul>
-                <a href="#" class="hamburger-manu"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                  </ul>
+                </div>
+                
+                    <a href="#" class="hamburger-manu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                           </a>
             </div>
         </div>
         <!--主區塊-->
-        <div class="row">
+        <div class="about_content">
             <div class="col-md-8 mainContent">
                 <div class="mainwrap">
                     
@@ -104,13 +108,14 @@
                 </div>
             </div>
         </div>
-        <!--footer-->
+        
+    </div>
+    <!--footer-->
         <div class="row footerrow">
             <div class="col-md-12 footer">
                 <p  id ="js-copyright" class="copyright">Copyright © 2017 by Riley Li</p>
             </div>
         </div>
-    </div>
     <!-- bootstrap -->
     <script src="../bootstrap/js/jquery.js"></script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>

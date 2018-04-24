@@ -68,9 +68,6 @@
     width: 900px;
     float: left;
 }
-.indexmainContent .personal{
-        height: 100%;
-}
 .indexmainContent,
 .about_content{
     width: 1280px;
@@ -152,7 +149,6 @@
 }
 .profile{
         background-color: white;
-    height: 584px;
     width: 345px;
     float: left;
     padding-top: 88px;

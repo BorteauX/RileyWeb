@@ -77,6 +77,10 @@
     overflow: auto;
     zoom: 1;
 }
+.about_content .mainwrap,
+.work_content .mainwrap{
+    margin-top: 89px;
+}
 .mainContent{
     background-color: white;
     height: 100%;

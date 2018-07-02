@@ -34,6 +34,7 @@ $(document).ready(function()
     var logo = document.getElementById('js-logo');
     logo.onclick = function(){
         headshot();
+        
     }
     
 
